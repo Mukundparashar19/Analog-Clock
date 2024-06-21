@@ -1,0 +1,55 @@
+#clockcontainer{
+    position: relative;
+    margin: auto;
+    height:40vw;
+    width: 40vw;
+    background: url(pc585bqRi.png) no-repeat;
+    background-size: 100%;
+}
+
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+#hour{
+    width: 1%;
+    height: 21%;
+    top: 30%;
+    left: 49.5%;
+    opacity: 0.8;
+
+}
+#minute{
+    width: 0.75%;
+    height: 28%;
+    top: 25%;
+    left: 49.5%;
+    opacity: 0.8;
+    
+}
+
+#second{
+    width: 0.5%;
+    height: 38%;
+    top: 17%;
+    left: 49.5%;
+    opacity: 0.8;
+    background-color: red;
+}
+
+
+#circle{ 
+    position: relative;
+    margin: auto;
+    height: 5%;
+    width: 5%;
+    left: 48%;
+    top: 51%;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+    }  
